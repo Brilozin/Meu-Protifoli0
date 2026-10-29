@@ -1,0 +1,12 @@
+.app,.demo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 00px 0px 10px rgba(0,0,0,0.5);
+  padding: 10px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
