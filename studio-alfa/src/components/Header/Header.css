@@ -1,0 +1,55 @@
+.header { 
+  border-bottom: 1px solid color-mix(in srgb, var(--cor-borda, #eaeaea) 50%, transparent); 
+  padding: 16px 0; 
+}
+
+
+.header-container { 
+  width: 95%;
+  margin: 0 auto; 
+ padding: 0 4px;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center; 
+} 
+
+.logo { 
+  display: flex; 
+  align-items: center; 
+  gap: 12px; 
+} 
+
+.logo-text { 
+  font-weight: 600; 
+  font-size: 18px; 
+  color: var(--cor-titulo, #000); 
+} 
+
+.logo-icon { 
+  width: 40px; 
+  height: auto; 
+} 
+
+.nav { 
+  display: flex; 
+  align-items: center; 
+  gap: 32px; 
+  margin-left: auto;
+} 
+
+.nav a { 
+  text-decoration: none; 
+  color: var(--cor-texto, #333); 
+  font-size: 16px; 
+}
+.btn-contatos {
+  border: 1px solid var(--cor-borda);
+  padding: 8px 20px;
+  border-radius: var(--raio-pequeno);
+  transition: background-color 0.2s;
+}
+
+.btn-contatos:hover {
+  background-color: var(--cor-texto);
+  color: var(--cor-fundo) !important;
+}

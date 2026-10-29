@@ -1,0 +1,37 @@
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid color-mix(in srgb, var(--cor-borda, #eaeaea) 50%, transparent);
+  margin-top: 60px;
+  padding: 40px 20px; 
+}
+
+.footer-bottom {
+  order: 1; 
+}
+
+.footer-bottom p {
+  margin: 0;
+  line-height: 24px; 
+}
+
+.footer-icons {
+  order: 2; 
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-icons a {
+  display: flex;
+  align-items: center;
+  height: 24px;
+  color: #52514e;
+  transition: color 0.2s;
+}
+
+.footer-icons svg {
+  display: block; 
+}

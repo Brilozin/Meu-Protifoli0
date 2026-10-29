@@ -1,0 +1,19 @@
+:root { 
+  --cor-primaria: #1F5E5B; 
+  --cor-texto: #164233; 
+  --cor-titulo: #1C2321; 
+  --cor-texto-claro: #A0A8A6; 
+  --cor-texto-sutil: #707876; 
+  --cor-borda: #DCE6E4; 
+  --cor-borda-clara: #E8EEED; 
+  --cor-fundo: #FFFFFF; 
+  --cor-escura: #1C2321; 
+  --cor-fundo-card: #DCE6E4; 
+  --cor-fundo-secao: #F2F4F3; 
+ 
+  --largura-maxima: 1100px; 
+  --padding-lateral: 24px; 
+ 
+  --raio-pequeno:   15px; 
+  --raio-grande: 8px; 
+}

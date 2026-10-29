@@ -1,0 +1,78 @@
+main {
+  max-width: var(--largura-maxima);
+  margin: 0 auto;
+  padding: 0 var(--paddibg-lateral);
+}
+
+main h2 {
+  margin-top: 100px;
+  margin-bottom: 20px;
+  text-align: left;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 8px;
+}
+main h2:hover {
+  background-color: var(--cor-texto);
+  color: var(--cor-fundo);
+}
+h1 {
+  text-align: center;
+  padding: 8px 20px;
+  margin-top: 70px;
+}
+p {
+  text-align: center;
+}
+.quebrar::before {
+  content: "\A";
+  white-space: pre-wrap;
+}
+
+.hero-buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.btn-primary,
+.btn-secondary {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-size: 14px;
+  height: 38px;
+  box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: black;
+  border: 1px solid black;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: white;
+  border-top: 1px solid color(black);
+  font-family:
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    sans-serif;
+  color: rgb(26, 26, 26);
+  font-weight: 500 !important;
+  padding: 8px 20px;
+}
