@@ -13,7 +13,7 @@ function Ex0082() {
         let numeros = [inputNumero1,inputNumero2,inputNumero3,inputNumero4,inputNumero5]
         let numeroSorteado = numeros[Math.floor(Math.random() * numeros.length)]
         
-        // Agora o nome da variável está correto!
+        
         let risadas = "ho ".repeat(Number(numeroSorteado))
         setResultado(risadas)
     }
